@@ -1,0 +1,13 @@
+pet = input()
+name = input()
+age = input()
+print('Это',pet,'по кличке "',name,'". Возраст:',age,'года.')
+print(f'Это {pet} по кличке "{name}". Возраст: {age} года.')
+
+print('Назовите этапы эволюции человека')
+stage1 = input('1-й этап:')
+stage2 = input('2-й этап:')
+stage3 = input('3-й этап:')
+stage4 = input('4-й этап:')
+stage5 = input('5-й этап:')
+print(stage1, stage2, stage3, stage4, stage5, sep="=>")
